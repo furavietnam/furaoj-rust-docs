@@ -134,7 +134,7 @@ To minimize compilation overhead across competitive programming workloads, the T
 | `PAS` | Pascal (FPC) | Pascal | `pas` | `fpc` | `-O2 -Fe/dev/stderr` | 1.0x |
 | `PASTHEMIS` | Pascal (Themis) | Pascal | `pas` | `fpc` | `-O2 -dTHEMIS -XS -Sg -Cs66060288 -Fe/dev/stderr` | 1.0x |
 | `SCRATCH` | Scratch 3.0 | Visual | `sb3` | `scratch-run` | `--check` syntax validation, 1MB address grace | 1.0x |
-| `PY2` | Python 2 | Python | `py` | `python2` | `-B` (time multiplier: 3.0x) | 3.0x |
+| `PY2` | CPython 2.7 | Python | `py` | `python2` | `-B` (time multiplier: 3.0x) | 3.0x |
 | `PY3` | Python 3 | Python | `py` | `python3` | `-B` (time multiplier: 2.5x) | 2.5x |
 | `PYPY` | PyPy 2 | Python | `py` | `pypy` | `-B` (JIT warmup grace) | 1.5x |
 | `PYPY3` | PyPy 3 | Python | `py` | `pypy3` | `-B` (JIT warmup grace) | 1.5x |
